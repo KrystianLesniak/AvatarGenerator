@@ -1,0 +1,14 @@
+<script src="lib/avatar-generator.js"></script>
+
+<img id="avatar" height="100" width="100" src="" border=1>
+    
+    <script>
+        
+            // Display in img
+    document.getElementById("avatar").src=avatarGenerator();
+    
+    document.getElementById("avatar").onclick = function(){
+        document.getElementById("avatar").src=avatarGenerator();
+    };
+        
+    </script>
